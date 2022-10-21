@@ -26,4 +26,4 @@ print(len(gList))
 
 frame = pd.DataFrame({'g_i':gList,'h_i':HList,'y_i':yList,'y_i^hat':yHatList})
  
-frame.to_csv("ex1.csv",index=False,sep=',')
+frame.to_csv("Data.csv",index=False,sep=',')
